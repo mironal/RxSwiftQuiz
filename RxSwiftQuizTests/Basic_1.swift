@@ -108,7 +108,6 @@ class Basic_1: XCTestCase {
     func test9() throws {
         // Write the code to convert `sameValueEvent` so that the test passes
         let answer = sameValueEvent
-            .element(at: 3)
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
