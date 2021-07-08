@@ -75,7 +75,7 @@ class Basic_1: XCTestCase {
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
-        XCTAssertEqual(result, [2, 3, 4, 5, 6])
+        XCTAssertEqual(result, [2, 3, 4, 5, 6], "Add 1 to each value")
     }
 
     func test6() throws {
@@ -93,7 +93,7 @@ class Basic_1: XCTestCase {
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
-        XCTAssertEqual(result, [1, 1])
+        XCTAssertEqual(result, [1, 1], "First two values")
     }
 
     func test8() throws {
@@ -102,7 +102,7 @@ class Basic_1: XCTestCase {
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
-        XCTAssertEqual(result, [1, 2])
+        XCTAssertEqual(result, [1, 2], "Remove duplicate values")
     }
 
     func test9() throws {
@@ -111,7 +111,7 @@ class Basic_1: XCTestCase {
 
         // ↓↓ Please do not edit below from here ↓↓
         let result = try answer.toBlocking().toArray()
-        XCTAssertEqual(result, [2])
+        XCTAssertEqual(result, [2], "Get 2 only once")
     }
 
     func test10() throws {
