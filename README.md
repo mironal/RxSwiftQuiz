@@ -27,6 +27,6 @@ Create a new issue. Of course, Japanese is fine.
 - [ ] Error Handling Operators
   - catch, retry
 - [ ] Connectable Observable Operators
-  - share, reply
+  - share, replay
 - [ ] Creating Observables
   - create

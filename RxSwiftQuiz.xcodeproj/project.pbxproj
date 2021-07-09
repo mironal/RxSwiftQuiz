@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F182CEBFEA24F1ADFE9D588 /* Pods_RxSwiftQuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A707A94F2C729E19C171C996 /* Pods_RxSwiftQuizTests.framework */; };
+		5C0CBD2E2697C2530021DAD5 /* Basic_Subjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CBD2D2697C2530021DAD5 /* Basic_Subjects.swift */; };
 		5C1C3F7E2695663100878F17 /* Basic_FlatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C3F7D2695663100878F17 /* Basic_FlatMap.swift */; };
 		5C8B9E36269553EC00A0C48B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8B9E35269553EC00A0C48B /* AppDelegate.swift */; };
 		5C8B9E38269553EC00A0C48B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8B9E37269553EC00A0C48B /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		2B32E06E03FC89C7DF194D80 /* Pods-RxSwiftQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftQuiz.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftQuiz/Pods-RxSwiftQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		5C0CBD2D2697C2530021DAD5 /* Basic_Subjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_Subjects.swift; sourceTree = "<group>"; };
 		5C1C3F7D2695663100878F17 /* Basic_FlatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_FlatMap.swift; sourceTree = "<group>"; };
 		5C8B9E32269553EC00A0C48B /* RxSwiftQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8B9E35269553EC00A0C48B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			children = (
 				5C8B9E48269553ED00A0C48B /* Basic_1.swift */,
 				5C1C3F7D2695663100878F17 /* Basic_FlatMap.swift */,
+				5C0CBD2D2697C2530021DAD5 /* Basic_Subjects.swift */,
 				5C8B9E4A269553ED00A0C48B /* Info.plist */,
 			);
 			path = RxSwiftQuizTests;
@@ -333,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0CBD2E2697C2530021DAD5 /* Basic_Subjects.swift in Sources */,
 				5C8B9E49269553ED00A0C48B /* Basic_1.swift in Sources */,
 				5C1C3F7E2695663100878F17 /* Basic_FlatMap.swift in Sources */,
 			);
